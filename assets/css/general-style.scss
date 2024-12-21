@@ -1,0 +1,26 @@
+$primary-color-system: #026938;
+$sub-color-system: #85C13F;
+$linenear-color-green: linear-gradient(153deg, $primary-color-system 0%, $sub-color-system 100%);
+$primary-orange-color: #f35726;
+$sub-orange-color: #f2994a;
+$linenear-color-orange: linear-gradient( 153deg, $sub-orange-color 0%, $primary-orange-color 100%);
+
+$Gray1: #333;
+$Gray5: #E0E0E0;
+$Gray6: #F2F2F2;
+
+.fontColor-grdnt-green{
+    background: linear-gradient(to right, #026938 0%, #85C13F 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.fontColor-grdnt-orange{
+    background: linear-gradient(153deg, #F2994A 0%, #F35726 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.position-relative {
+  position: relative;
+}
